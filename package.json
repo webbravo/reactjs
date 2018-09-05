@@ -1,0 +1,46 @@
+{
+  "name": "carshop",
+  "version": "0.1.0",
+  "description": "this is a sample a project called car shop that clear explained react routing and react app setup to me",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbravo/reactjs.git"
+  },
+  "keywords": [
+    "react-routing",
+    "routers",
+    "and",
+    "navigation"
+  ],
+  "author": "@teamwebbravo copied from @codebeast",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbravo/reactjs/issues"
+  },
+  "homepage": "https://github.com/webbravo/reactjs#readme",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "3.5.1",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "airbnb-base",
+        "eslint:recommended",
+        "plugin:import/errors",
+        "plugin:react/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "plugins": ["prettier", "react"],
+    "parser": "babel-eslint",
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "16.4.2"
+        }
+    }
+}
